@@ -1,5 +1,8 @@
 package thread1;
 
+/**
+ * 使用实现Runnable借口的方式实现线程
+ */
 public class MyRunnable implements Runnable {
     @Override
     public void run() {
